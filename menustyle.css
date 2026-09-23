@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;            
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+}
+
+.list {
+    margin-right: auto;   
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;            
+}
+.list ul 
+{
+    margin-left: 480px;
+}
+.list ul li 
+{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.list ul a
+{
+    text-decoration: none;
+    color: white;
+}
+.list ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+.icons
+{
+    display: flex;
+    font-size: 20px;
+    margin-left: 1100px;
+    gap: 20px;
+    position: relative;
+    bottom: 20px;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+.top
+{
+    background-color: #fff8f0;
+}
+.body
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.body > div {
+    width: calc(25% - 15px);
+}
+.text 
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.text span{
+    color: red;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+.buttons button
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70px;
+}
+.buttons button {
+    transition: transform 0.2s ease;
+}
+.buttons button:hover {
+    transform: scale(1.1);
+}
